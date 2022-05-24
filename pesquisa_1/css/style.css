@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #40306B;
+    border-bottom: 1px solid #40306B;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+ul {
+    
+}
