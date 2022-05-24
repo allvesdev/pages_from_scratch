@@ -1,40 +1,117 @@
 body {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 header {
-    background-color: #40306B;
-    border-bottom: 1px solid #40306B;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+  background-color: #40306b;
+  border-bottom: 1px solid #40306b;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 ul {
-    margin: 30px auto;
-    padding: 0 20px;
-    text-align: center;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
 li {
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 80px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
 }
 
 a {
-    color: #fff;
-    text-decoration-line: none;
+  color: #fff;
+  text-decoration-line: none;
 }
 
 a:hover {
-    color: #C2B3EE;
+  color: #c2b3ee;
 }
 
 a:visited {
-    color: #C2B3EE;
-    text-decoration-line: none;
+  color: #c2b3ee;
+  text-decoration-line: none;
+}
+
+h1 {
+  color: #40306b;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #40306b;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #40306b;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #c2b3ee;
+  text-align: center;
+  padding: 1px;
+  margin-top: 60px;
+}
+
+.pesquisa {
+  background-color: #c2b3ee;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.questao {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.resposta {
+  border: 1px solid #40306b;
+  border-radius: 5px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.resposta:hover {
+  background: #c2b3ee;
+  color: #fff;
 }
