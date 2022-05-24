@@ -15,3 +15,26 @@ ul {
     padding: 0 20px;
     text-align: center;
 }
+
+li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;
+}
+
+a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #C2B3EE;
+}
+
+a:visited {
+    color: #C2B3EE;
+    text-decoration-line: none;
+}
