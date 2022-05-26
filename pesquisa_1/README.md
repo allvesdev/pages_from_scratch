@@ -16,4 +16,4 @@ Sometimes it was necessary to consult the course code, but I realize that I had 
 
 ## Screenshots/GIFs
 
-![gif of the survey simple page](/gif/pesquisa1.gif)
+![gif of the survey simple page](/pesquisa_1/gif/pesquisa1.gif)
